@@ -1,0 +1,175 @@
+hDay1:
+
+Day2:
+
+Day3:
+1.anchor tag and its styles/properties including hover property
+2.internal CSS
+3.why its is called cascade style sheet?
+
+Day4:
+1.void element in HTML => is element which does not have closing tag/self closing tags are void tags
+2.absolute and relative path => absolute path is path from root directory and relative path is relative to current working directory 
+3.Multiple file and request => if we link css file to HTML on browser,
+    browser will request CSS file seperatly it will not merge them automatically
+4.selecting single element wit id selector => to select single element use id in element
+5.Working with font size and px => we can take font size in px. this values are independent of device(high resolution or low resolution device)
+absolute and relative font size=>
+6.Using other fonts from google fonts => we can download diff fonts from other server eg. google fonts.
+7.Adding an image => <img src="manesh.png" alt="manesh">
+8.styling the image and using the body tag=> We can use height, width,border-radius property.we can center the image by adding the 
+text align center property to parent html element of image tag.
+9.Adding another HTML: we add the another html page in which we give the link of main page.
+10. After that we make a css file in which we import the same css from both the files.
+
+
+Day6:
+1.Liver server: Live server reploads browser page automatically when you change the html code of page. Without live server you need to reload the
+page to see the changes made in HTML file.
+2.Lists: ordered list and unordered list
+3.creating list
+49.understanding parent, children and container --> children inherit properties of parent
+50. inheritance --> selected container rules apply to descendants
+ ,cascading style --> multiple rules can apply on same element
+  sheet and specificity -> more specific select rule wins over less specific selector
+
+  <body color=red>
+    <p  font=san serif>
+        <a color=blue></a>
+    </p>
+  </body>
+
+body color -> red ,font -> default
+p-> color -> red, font -> sans serif
+a -> color -> blue, font -> san serif
+
+51.
+52.cSS box model -> padding --> space between content and box,border --> border of box ,margin --> distnace from nearby element
+
+53.
+54.HTML layouts => header,main,footer
+55.selectors and combinators => type,id,group,class  descendants and child
+56.using selectors and combinators=>here we learn instead of selectors we can use desendents.
+57.understanding classes=>class is used to give style to the multiple elements. class is represented by . symbole. It is same as id selector
+If we want distance between header and main body then we can write the css using header as type selector 
+
+58 block vs inline elements=> block elements are the wlwments which occupied full width of the text.Eg- <p>,<h1>.
+inline elements are the elements which are written only one line. It occupies only that much space they needed.If we write inline element
+in next line it breaks the flow of code.Eg-<a>,<button>.
+
+59 styling differences between block and inline elements=> in inline styling we can use the display property 
+
+60 understanding margin collapsing=>margin collapsing occures only in inline elements.it collapse vertically only.
+Horizantal margin collapsing does not occure. when we define margin for block elements then bigger margin will wins.
+
+61.the box shadow property=>we can use box shadow by giving the values like x,y, r rgb(1,1,1,1->alpha) also we can set the margin as we want
+
+62.
+
+63. creating html layout=><span> tag is used to indicate the spcific information it is inline tag so we can use it into the block level elements.
+We can use <main></main> and <footer></footer> instead of it we can also use the <div>
+eg-<div id="main-section">,<div id="footer>
+
+64.styling the main section=>
+65.styling image and working with margins=>if we want the image at top of the border then we use negative margins 
+
+66.
+-------------------------------------------------------------------------------------------------------------------------------------------------
+day9-10
+summary:
+inheritance in CSS =>
+inline and block element =>
+Box model =>
+margin collapsing=>
+
+
+
+
+
+
+
+60.
+----------------------------------------------------------------------------
+Day11: serving a websit(Hosting and Deployment)
+1.Hosting and Deployment: moving ur code from local to server is Deployment.
+
+if you want to see your website in your browser then you need to host/deploy ur code to serevr.
+
+
+--------------------------------------------------------------------------------
+74.
+GIT --> version controlling tool
+GITHUB --> code storing platform
+
+Version controlling -> two types -> centerlized and distributed 
+
+centerlized -> every developer connect to centeral server to refer the code.If server is down developers can not work.(SVN)
+distributed --> every developer will have their own  repository in local.If centeral server is down still they can use
+local repository to work.
+
+
+#Git basic theory
+
+1.Working directory =>
+2.repository => changes are stored here in ters of commits and branches
+
+------------------------------------------------------------------------------------------------------
+Git commands:
+
+1.git init => make folder as repository => we have make rpository to track files and its versions
+2.git status => what is status of files and folders inside gt repository 
+3.git add => to add file to git to track it(statsh the changes)
+4.git commit -m =>
+5.git config --global user.email "nehabhosle@gmail.com"
+6.git config --global user.name "Neha Irlekar Bhosle"
+7.git log => to check all commits
+8.git log -p = to see commits and changes within commit
+9.git branch <branch_name>=> to create new branch
+git branch => to see all available branches
+10.git branch -m newBranch => to rename current branch to newBranch
+11. git checkout -b branch_name => create  new branch from current branch and checkout that branch
+git 
+12.git rm <filename> => to remove file from git and no need to add it in git it will automatically added
+13.git reset --hard HEAD~1 => go back to 1 commit earlier and deletes latest commit 
+14.git branch -D <brachname> =>to delete the branch
+15.git checkout -- . => to reset current branch to latest commit for unstaged changes
+16.git reset file1.txt => to rest file1.txt
+17. git checkout -- file1.txt => to checkout last commited file
+18.why Github =>
+  1.cloud storage => store your code on remote server/cloud
+  2.portfolio =. showcase ur projects to others
+  3.team collabration => more than one member can work on same project
+  4.open source project => we can work on open source project through Github
+19.
+GIT => software locally installed on ur pc/laptop
+Github => website you can store ur code or it is cloud storage
+url : https://github.com
+
+Repositories : folder in which ur code is present
+remote repository: https://github.com/codewithnehairlekar/web-dev-github.git
+
+git remote add origin https://github.com/codewithnehairlekar/web-dev-github-new.git ==> add remote repo to ur local repo 
+
+git push origin main => to push ur code to remote repo
+
+-----------------------------------------------------------------
+how to delete ur added git token =>go to the credential manager
+if u want to work on any project from github use following clone command
+ git clone https://github.com/codewithnehairlekar/web-dev-github-new.git .
+
+ -------------------------------------------------------------
+
+git init
+git clone
+git checkout
+git add
+git commit
+git branch
+git push
+pull request
+merge conflict
+how to resolve merge conflict
+
+ ----------------------------------------------
+ Day 15 to 20
+ 
