@@ -173,3 +173,4 @@ how to resolve merge conflict
  ----------------------------------------------
  Day 15 to 20
  
+ 108 => block elements , semantic and non semantic elements 
