@@ -174,3 +174,9 @@ how to resolve merge conflict
  Day 15 to 20
  
  108 => block elements , semantic and non semantic elements 
+ 109=> flex introduction->it is used to put the two block level elements infront of each other.
+     flex-direction: it tells what is the direction of elements in the container
+    flex-wrap: wrap;
+    align-items: it aligns the items such as center ,left ,right.
+    justify-content: it tells the space of items such as betwwen,left ,right etc
+}
