@@ -179,4 +179,17 @@ how to resolve merge conflict
     flex-wrap: wrap;
     align-items: it aligns the items such as center ,left ,right.
     justify-content: it tells the space of items such as betwwen,left ,right etc
-}
+110 => combinator selector
+111=> adding background iamge via css property
+text align is for text in bloack element and you can center block element via setting margin
+116 =>
+
+we can change the position of elements in document flow using 
+positon = relative
+top = 200px
+
+this is used to move elemnts inside elemet .we can not use margine becuase it will add space between elements but it will not change position in
+document itself
+
+127  => margin collapsing in parent child relationship => when parent is with 0 padding and 0 margine child can have margin which collapse with
+parent to remove this extra padding we can add margine to parent .
