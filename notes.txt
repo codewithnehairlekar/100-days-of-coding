@@ -193,3 +193,15 @@ document itself
 
 127  => margin collapsing in parent child relationship => when parent is with 0 padding and 0 margine child can have margin which collapse with
 parent to remove this extra padding we can add margine to parent .
+
+128=>linear gradient=>it is a color scheme which will add gradient effect on page. gradient => slowly 
+
+
+footer img{
+    width: 100%;
+    height: 100%;
+}  to resize the image in the footer 
+
+object fit=>to fit the image into the given size
+overflow=>
+The CSS overflow property controls what happens to content that is too big to fit into an area.
