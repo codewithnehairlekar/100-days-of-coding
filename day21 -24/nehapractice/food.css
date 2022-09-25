@@ -1,0 +1,63 @@
+body{
+    margin: 0px;
+    background-color: rgb(74, 66, 66);
+}
+header{
+    background-color: rgb(35, 31, 31);
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    
+}
+header a{
+    text-decoration: none;
+    color: chocolate;
+}
+#page-logo{
+    margin: 0px;
+    padding: 0px;
+}
+header nav ul{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    
+}
+ul{
+    list-style: none;
+}
+header li{
+    margin: 0px;
+    padding: 0px 10px;
+}
+main h1{
+    color: chocolate;
+    text-align: center;
+    margin-top: 20px;
+}
+main img{
+    height: 200px;
+    width: 250px;
+    border-radius: 10px 10px 0 0;
+    
+}
+main ul{
+    display: flex;
+    justify-content: space-around;  
+    margin: 70px; 
+    padding: 0 100px 0 100px
+
+}
+main li{
+    background-color: aliceblue;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 10px;
+}
+main a{
+    text-decoration: none;
+    background-color: rgb(161, 161, 28);
+    color: white;
+    border-radius: 2px;
+}
