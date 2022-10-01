@@ -9,17 +9,17 @@ body{
 }
 .container{
     margin: 0 auto;
-    max-width: 900px
+    max-width: 900px;
 }
 .apply-box{
-    background-color: white;
     max-width: 600px;
+    background-color: white;
     margin: 0 auto;
     margin-top: 50px;
     border-radius: 10px;
     padding: 20px;
 }
-.container span{
+.highlights{
     font-size: 20px;
 }
 .form-container{
@@ -67,6 +67,7 @@ button:hover{
 .textarea-control{
     grid-column:1 / span 2;
 }
+
 .textarea-control textarea{
     width: 100%;
 }

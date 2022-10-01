@@ -43,7 +43,7 @@ main img{
 }
 main ul{
     display: flex;
-    justify-content: space-around;  
+    justify-content: center;  
     margin: 70px; 
     padding: 0 100px 0 100px
 
