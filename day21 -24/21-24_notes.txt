@@ -1,0 +1,16 @@
+1.Responsive Websit =>
+    Responsive website are the sites who adjust itself on different devices.
+    in mobile screen it will shrink itself and look good
+    and in laptop screen it adjust itself as screen size
+2. em vs px =>
+    when we use px value in css it does not support the browser instead of px if we use em then browser supports changes.
+    When uer changes the font setting in browser , px unit in HTML/CSS will not support those changes.
+    But instead of px ,when em is used then it does support the changes made in brower settings.
+
+
+    The px unit in HTML/CSS will not accept changes made by the user when the font setting is changed in the browser.
+    However, when em is used in place of px, the browser settings can be supported.
+
+3.px is not scalable in browser but % and em are scalable
+if we set the font size in % or em it is relative to the font size of their parent element.
+if we set font size in rem then the font size is relative to their root element

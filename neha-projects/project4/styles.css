@@ -1,43 +1,63 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     background-image: url(./images/notebookpen\ image.jpg);
     background-position: center;
     background-size: cover;
 }
-.menu{
+
+.menu {
     background-color: green;
     text-align: center;
 }
-.menu ul{
+
+.menu ul {
     display: inline-flex;
     list-style: none;
     color: white;
 }
-.menu ul li{
+
+.menu ul li {
     width: 100px;
     margin: 15px;
     padding: 15px;
 }
-.menu ul li a { 
+
+.menu ul li a {
     text-decoration: none;
     color: white;
-    
+
 }
-.active,.menu ul li:hover{
+
+.active,
+.menu ul li:hover {
     background-color: forestgreen;
     border-radius: 5px;
-} 
-.sub-menu{
+}
+
+.sub-menu {
     display: none;
 }
-.menu ul li :hover .sub-menu{
+
+.menu ul li:hover .sub-menu {
     display: block;
     position: absolute;
     background: rgb(0, 100, 0);
     margin-top: 15px;
     margin-left: 15px;
+}
+.menu .fa{
+    margin-left: 8px;
+}
+.menu ul li:hover .sub-menu{
+    display: block;
+    position: absolute;
+}
+.menu ul li:hover .sub-menu ul{
+    display: block;
+    margin: 10px;
 }
